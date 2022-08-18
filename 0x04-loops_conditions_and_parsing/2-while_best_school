@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# displays Best School 10 times with while loop.
+#prints a string 10 times with the while loop
 
-COUNTER=0
-while [ $COUNTER -le 10 ]; do
-	echo "Best School"
-	let COUNTER=COUNTER+1
+x=0
+while [ $x -ne 10 ]
+do
+  echo "Best School"
+  x=$(( x + 1 ))
 done
