@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# displays the content of the current working directory.
+#special ls
 
 for i in *
 do
-    echo "$i" | cut -d'-' -f2
+    echo "$i" | cut -d '-' -f 2;
 done
